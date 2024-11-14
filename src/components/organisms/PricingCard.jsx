@@ -10,7 +10,7 @@ const PricingCard = ({ plan, price, description, features, isHighlighted }) => {
             <h3 className="text-xl font-bold mb-2 text-left">{plan}</h3>
             <Price amount={price} isHighlighted={isHighlighted} />
             <p className={`mb-4 text-left ${isHighlighted ? 'text-white' : 'text-gray-600'}`}>{description}</p>
-            <FeaturesList features={features} isHighlighted={isHighlighted} />
+            <FeaturesList esList features={features} isHighlighted={isHighlighted} />
             <Buttonc text="Get Started" isPrimary={isHighlighted} />
         </div>
     );

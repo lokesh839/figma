@@ -5,10 +5,11 @@ import Paragraph from '../atoms/Paragraph';
 
 const Textpro = () => {
     return (
-        <div className=" md:w-3/5 md:mt-16 md:mr-9 text-left">
-            {/* <Heding title="Project" highlight="Management" /> */}
+        <div className=" w-3/5 md:w-2/5 mt-16 mr-9 text-left">
+            {/* <Heding title="Project" highlight="Management" />         */}        
+         
 
-            <Heding class="relative inline-block">Project <br /><span className="underline decoration-4 decoration-yellow-300 ">Management</span></Heding>
+            <Heding class="relative inline-block">Project <br /><span className="underline decoration-4 decoration-yellow-300 z-10">Management</span></Heding>
             <Paragraph >
                 Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
             </Paragraph>

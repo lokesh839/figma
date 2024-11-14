@@ -25,7 +25,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="bg-blue-900 w-full text-gray-200 px-56 space-x-7">
+        <footer className=" md:bg-blue-900 bg-sky-500 w-full text-gray-200 px-56 space-x-7">
             <div className=" max-w-7xl mx-auto px-50 grid grid-cols-2 md:grid-cols-5 gap-8 text-left ">
                 <div className="md:col-span-1 flex items-center mb-4">
 
@@ -52,33 +52,30 @@ const Footer = () => {
             </div>
 
 
-            <div className='w-full'>
-                <div class="max-w-7xl flex items-center space-x-20 md:grid-cols-4 ">
+            <div className='w-full py-3 '>
+                <div class="max-w-7xl flex flex-col md:flex-row items-center  ">
 
-                    <div className='w-1/4 flex justify-start pl-6'>
-                        <div>
-                            <img src="../images/Group.png" alt="group" />
-
-                        </div>
+                    <div className=' md:w-1/4 flex pr-16 justify-start'>                      
+                            <img src="../images/Group.png" alt="group" />                       
                         <select class=" bg-transparent  border-gray-500  text-white rounded-md  ">
                             <option >English</option>
                             <option>Spanish</option>
                             <option>French</option>
                         </select>
                     </div>
-                    <div className=' w-1/2 flex space-x-6 mt-6 '>
+                    <div className=" md:w-1/2  space-x-8 ">
                         <a href="#" class="hover:underline">Terms & privacy</a>
                         <a href="#" class="hover:underline">Security</a>
                         <a href="#" class="hover:underline">Status</a><br /><br />
 
 
                     </div>
-                    <div className=' w-1/4 '>
+                    <div className=' md:w-1/4 pr-10 '>
                         <p>©2021 Whitepace LLC.</p>
                     </div>
 
 
-                    <div className='w-1/4 flex justify-end'>
+                    <div className='w-1/4 flex  justify-end h-4 pl-48'>
                         <img src="./images/inicon.png" alt="incon" />
 
                     </div>

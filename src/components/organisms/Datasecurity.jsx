@@ -2,7 +2,7 @@ import React from 'react';
 import Datatext from '../molecules/Datatext';
 
 const Datasecurity = () => (
-    <div className="bg-white w-full mx-auto p-8 flex flex-col md:flex-row items-center py-36 ">
+    <div className=" bg-white w-full mx-auto p-8 flex flex-col md:flex-row items-center py-36 ">
         <div className=" max-w-7xl mx-auto p-8">
             <div className="flex flex-col md:flex-row items-center">
                <Datatext/>

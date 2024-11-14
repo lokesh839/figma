@@ -52,7 +52,7 @@ const PricingPage = () => {
     ];
 
     return (
-        <div className="w-full bg-white py-10 ">
+        <div className="  flex-col md:w-full bg-white py-10 ">
             <div className=' max-w-7xl mx-auto p-5 text-center py-16  px-10 space-x-10 '>
 
                 <Heding>

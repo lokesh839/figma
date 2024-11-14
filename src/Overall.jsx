@@ -17,8 +17,8 @@ import PricingPage from "./components/templates/PricingPage";
 function Overall() {
 
     return (
-        <div class=" flex flex-col items-center justify-between min-h-screen  md:mx-auto">
-            <div class=" max-w-8xl mx-auto ">
+        <div class="  flex flex-col items-center justify-between min-h-screen  md:mx-auto">
+            <div class=" max-w-9xl mx-auto ">
                 <Header />
                 <MainSection />
                 <Project />
@@ -32,8 +32,10 @@ function Overall() {
                 <TestimonialsSection />
                 <Trywhitepace />
                 <Footer />
+                
+                
             </div>
-        </div>
+     </div>
 
 
 

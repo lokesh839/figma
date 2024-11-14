@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../atoms/Button';
 
 const Calltoaction = () => (
-    <div className="flex-grow flex flex-col items-center justify-center text-center p-8 bg-blue-900 text-white py-36 ">
+    <div className="flex-grow flex flex-col items-center justify-center text-center p-8 md:bg-blue-900 bg-sky-500 text-white py-36 ">
         <h1 className="text-5xl font-bold mb-4 leading-tight">Try Whitepace <br />today</h1>
         <p className="mb-6">Get started for free.<br />Add your whole team as your needs grow.</p>
         <Button href="#">Try Tasky Free &rarr;</Button>

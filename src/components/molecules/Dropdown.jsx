@@ -3,7 +3,8 @@ import React from 'react';
 const Dropdown = ({ label, options, isOpen, onToggle }) => (
     <div className="relative">
       <button onClick={onToggle} className="hover:text-gray-200 focus:outline-none">
-            {label} &#9207;
+     
+            {label} 
         </button>
         {isOpen && (
             <div className="absolute mt-2 w-48 bg-white text-black rounded-md shadow-lg z-10">
@@ -16,5 +17,6 @@ const Dropdown = ({ label, options, isOpen, onToggle }) => (
         )}
     </div>
 );
+
 
 export default Dropdown;

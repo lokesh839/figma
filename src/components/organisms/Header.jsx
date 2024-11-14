@@ -39,9 +39,9 @@ const Header = () => {
     };
 
     return (
-        <header className=" w-full m bg-blue-900 text-white p-4 h-18  py-7">
+        <header className="w-full bg-sky-500 md:bg-blue-900  text-white p-4   py-3 ">
 
-            <div className=" max-w-7xl mx-auto flex justify-between items-center" >
+            <div className="  max-w-7xl mx-auto flex justify-between items-center" >
                 <div className='  flex items-center '>
                     <img src="../images/Logo2.png" alt="" />
                     <span class="text-white text-2xl font-bold md:ml-2">whitespace</span>
@@ -49,31 +49,31 @@ const Header = () => {
                 </div>
                 <nav className="flex space-x-9 md:ml-60 ">
                     <Dropdown
-                        label="Products "
+                        label="Products &#8964;"
                         options={productsOptions}
                         isOpen={openDropdown === 1}
                         onToggle={() => toggleDropdown(1)}
                     />
                     <Dropdown
-                        label="Solutions "
+                        label="Solutions &#8964;"
                         options={solutionsOptions}
                         isOpen={openDropdown === 2}
                         onToggle={() => toggleDropdown(2)}
                     />
                     <Dropdown
-                        label="Resources "
+                        label="Resources &#8964;"
                         options={resourcesOptions}
                         isOpen={openDropdown === 3}
                         onToggle={() => toggleDropdown(3)}
                     />
                     <Dropdown
-                        label="Pricing "
+                        label="Pricing &#8964;"
                         options={pricingOptions}
                         isOpen={openDropdown === 4}
                         onToggle={() => toggleDropdown(4)}
                     />
                 </nav>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-5">
                     <LinkButton to="/login">Login</LinkButton>
                     <Button className=" bg-blue-400 hover:bg-blue-400 text-white py-2 px-4 rounded" >Try Whitespace Free &rarr;</Button>
                 </div>
@@ -84,6 +84,5 @@ const Header = () => {
 
 
     );
-};
-
-export default Header;
+ };
+ export default Header;
